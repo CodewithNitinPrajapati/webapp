@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1603570447692-7e307f46830d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white h-screen flex flex-col justify-center items-center relative">
+        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+        <div class="relative z-10 text-center">
+            <h1 class="text-6xl font-bold">Barber Shop</h1>
+            <p class="mt-4 text-xl">Get the most professional haircut for you</p>
+            <div class="mt-6 space-x-4">
+                <button class="px-6 py-2 bg-yellow-500 text-black font-semibold rounded-full">About Us</button>
+                <button class="px-6 py-2 bg-red-500 text-white font-semibold rounded-full">What We Do</button>
+            </div>
+            <div class="mt-10">
+                <button class="px-10 py-4 bg-orange-600 font-semibold text-white rounded-full">Hurry Up! Get good haircut. Book a seat</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Hairdressers Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Best Hairdressers</h2>
+            <p class="text-gray-600 mb-12">Gentlemen's Barber Shop is new Bootstrap v5 HTML CSS template by TemplateMo for everyone.</p>
+            <div class="flex justify-center space-x-8">
+                <div class="w-1/3 bg-gray-100 p-4 rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1518481612407-2d0a0c4e76b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Barber 1" class="rounded-lg">
+                    <h3 class="mt-4 text-2xl font-bold">Redo</h3>
+                </div>
+                <div class="w-1/3 bg-gray-100 p-4 rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1612339703218-b5e2db86db13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Barber 2" class="rounded-lg">
+                    <h3 class="mt-4 text-2xl font-bold">Sam</h3>
+                </div>
+            </div>
+            <div class="mt-10 text-center">
+                <div class="bg-red-500 inline-block px-6 py-3 text-white font-semibold rounded-lg">Get 32% Discount on every second week of the month. Promo Code: BarBerMo</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Services</h2>
+            <div class="grid grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Service 1" class="rounded-lg">
+                    <h3 class="mt-4 text-2xl font-bold">Haircut</h3>
+                    <p class="text-gray-600">$32.00</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1598887142489-bc85f11864de?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Service 2" class="rounded-lg">
+                    <h3 class="mt-4 text-2xl font-bold">Washing</h3>
+                    <p class="text-gray-600">$25.00</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1587043152623-7fd5248dffce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Service 3" class="rounded-lg">
+                    <h3 class="mt-4 text-2xl font-bold">Shaves</h3>
+                    <p class="text-gray-600">$30.00</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1587005493094-6e5fe580ec5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Service 4" class="rounded-lg">
+                    <h3 class="mt-4 text-2xl font-bold">Kids</h3>
+                    <p class="text-gray-600">$25.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Book a Seat</h2>
+            <div class="bg-gray-100 p-10 rounded-lg shadow-lg max-w-lg mx-auto">
+                <form>
+                    <div class="mb-4">
+                        <input type="text" placeholder="Full name" class="w-full p-3 rounded-lg border border-gray-300">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" placeholder="Mobile" class="w-full p-3 rounded-lg border border-gray-300">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" placeholder="06:30 PM" class="w-full p-3 rounded-lg border border-gray-300">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" placeholder="Grünberger" class="w-full p-3 rounded-lg border border-gray-300">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" placeholder="mm/dd/yyyy" class="w-full p-3 rounded-lg border border-gray-300">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" placeholder="Number of People" class="w-full p-3 rounded-lg border border-gray-300">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" placeholder="Comment (Optionals)" class="w-full p-3 rounded-lg border border-gray-300">
+                    </div>
+                    <button class="w-full px-4 py-3 bg-red-500 text-white rounded-lg font-semibold">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price List Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Price List</h2>
+            <div class="flex justify-center space-x-8">
+                <div>
+                    <ul class="text-left">
+                        <li class="text-lg mb-4">Haircut <span class="float-right">$32.00</span></li>
+                        <li class="text-lg mb-4">Beard Trim <span class="float-right">$26.00</span></li>
+                        <li class="text-lg mb-4">Razor Cut <span class="float-right">$36.00</span></li>
+                        <li class="text-lg mb-4">Shaves <span class="float-right">$30.00</span></li>
+                        <li class="text-lg mb-4">Styling/Color <span class="float-right">$25.00</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1578496476165-0d53db2c4dc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Price List Image" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Say Hello</h2>
+            <div class="bg-red-500 inline-block px-6 py-3 text-white font-semibold rounded-lg mb-12">Open Daily: 10:00 AM - 8:00 PM</div>
+            <div class="flex justify-center space-x-8">
+                <div class="text-left">
+                    <p class="text-lg mb-4"><strong>Contact Information</strong></p>
+                    <p class="text-lg mb-4">+49 120-240-3600</p>
+                    <p class="text-lg mb-4">hello@barber.beauty</p>
+                    <div class="flex space-x-4 text-red-500">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto mt-12">
+            <h3 class="text-2xl font-bold text-center mb-6">Our Branches</h3>
+            <div class="flex justify-center space-x-8">
+                <p class="text-lg">Grünberger <span class="block">Grünberger Str. 31, 10245 Berlin, Germany</span></p>
+                <p class="text-lg">Behrenstraße <span class="block">Behrenstraße 27, 10117 Berlin, Germany</span></p>
+                <p class="text-lg">Weinbergsweg <span class="block">Weinbergsweg 23, 10119 Berlin, Germany</span></p>
+            </div>
+        </div>
+        <div class="container mx-auto mt-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.720548025225!2d13.424944815909647!3d52.515414779811236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e376c6c580b%3A0x308e41f12f2c4b5a!2sGr%C3%BCnberger%20Str.%2C%2010245%20Berlin%2C%20Germany!5e0!3m2!1sen!2sus!4v1691158679266!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+</body>
+</html>
